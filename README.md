@@ -33,6 +33,7 @@ This project is an **AI-powered email assistant** that automatically classifies 
 1. **Clone the repository**
    
 git clone https://github.com/Lovepreet1307/email-prioritizer.git
+
 cd email-prioritizer
 
 2. **Create a virtual environment and activate**
