@@ -31,10 +31,10 @@ This project is an **AI-powered email assistant** that automatically classifies 
 ## Installation
 
 1. **Clone the repository**
-
-```bash
-git clone https://github.com/your-username/email-prioritizer.git
+   
+git clone https://github.com/Lovepreet1307/email-prioritizer.git
 cd email-prioritizer
+
 2. **Create a virtual environment and activate**
 
 python -m venv venv
@@ -50,7 +50,7 @@ GMAIL_CLIENT_ID=your_client_id_here
 GMAIL_CLIENT_SECRET=your_client_secret_here
 FETCH_INTERVAL_SECONDS=60
 
-5. Run the application
+5. **Run the application**
 uvicorn app.main:app --reload
 
 email-prioritizer/
