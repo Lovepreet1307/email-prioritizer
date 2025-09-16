@@ -47,27 +47,14 @@ pip install -r requirements.txt
 4. **Set up environment variables (.env)**
 
 GMAIL_CLIENT_ID=your_client_id_here
+
 GMAIL_CLIENT_SECRET=your_client_secret_here
+
 FETCH_INTERVAL_SECONDS=60
 
 5. **Run the application**
+   
 uvicorn app.main:app --reload
-
-email-prioritizer/
-│
-├─ app/
-│   ├─ main.py
-│   ├─ worker.py
-│   ├─ llm_service.py
-│   ├─ gmail_service.py
-│   ├─ db.py
-│   ├─ utils.py
-│   └─ config.py
-│
-├─ oauth_credentials.json
-├─ requirements.txt
-├─ .env
-└─ README.md
 
 ## Gmail OAuth Setup
 
